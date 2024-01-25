@@ -1,5 +1,6 @@
-package com.aula.projetojavafx;
+package com.aula.projetojavafx.gui;
 
+import com.aula.projetojavafx.Main;
 import com.aula.projetojavafx.gui.util.Alerts;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -36,7 +37,7 @@ public class MainViewController implements Initializable {
 
     @FXML
     public void onMenuItemAboutAction() {
-        loadView("/com/aula/projetojavafx/About.fxml");
+        loadView("/About.fxml");
     }
 
     @Override

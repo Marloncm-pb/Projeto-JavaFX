@@ -9,8 +9,6 @@ public class Alerts {
         alert.setHeaderText(header);
         alert.setContentText(content);
         alert.show();
-        Exception e = new Exception("Exception");
-        e.printStackTrace();
 
     }
 }

@@ -10,4 +10,6 @@ module com.aula.projetojavafx {
 
     opens com.aula.projetojavafx to javafx.fxml;
     exports com.aula.projetojavafx;
+    exports com.aula.projetojavafx.gui;
+    opens com.aula.projetojavafx.gui to javafx.fxml;
 }
