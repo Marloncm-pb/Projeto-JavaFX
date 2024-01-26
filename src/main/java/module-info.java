@@ -18,5 +18,5 @@ module com.aula.projetojavafx {
     opens com.aula.projetojavafx.model.entities to javafx.fxml;
     exports com.aula.projetojavafx.model.services;
     opens com.aula.projetojavafx.model.services to javafx.fxml;
-
+    
 }
